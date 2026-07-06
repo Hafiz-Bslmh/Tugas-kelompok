@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website AmbaTeknologi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body class="bg-light">
+
+<!-- Navbar Buka -->
+
+
+<!-- Navbar Atas -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold text-primary" href="#">
+            AmbaTeknologi<span class="text-warning">.com</span>
+        </a>
+
+        <!-- Search -->
+        <form class="d-flex flex-grow-1 mx-4">
+            <select class="form-select w-auto rounded-0">
+                <option>All categories</option>
+            </select>
+
+            <input class="form-control rounded-0" type="search" placeholder="Type here...">
+
+            <button class="btn btn-danger rounded-0" type="submit">
+                <i class="bi bi-search"></i>
+            </button>
+        </form>
+
+        <!-- Menu kanan -->
+        <ul class="navbar-nav align-items-center">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">LOG IN / SIGN UP</a>
+            </li>
+
+            <li class="nav-item ms-3">
+                <a class="nav-link position-relative" href="#">
+                    <i class="bi bi-cart3 fs-4"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        0
+                    </span>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+
+<!-- Navbar Bawah -->
+<nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+
+        <div class="dropdown">
+    <button class="btn btn-primary rounded-0 px-4 dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false">
+        <i class="bi bi-list"></i>
+        Kategori
+    </button>
+
+    <ul class="dropdown-menu rounded-0">
+        <li>
+            <a class="dropdown-item" href="#">
+                Desktop PC
+            </a>
+        </li>
+
+        <li>
+            <a class="dropdown-item" href="#">
+                Service Your Desktop
+            </a>
+        </li>
+    </ul>
+</div>
+
+        <!-- Menu -->
+        <div class="navbar-nav ms-4">
+
+            <a class="nav-link" href="#">Cara Berbelanja</a>
+
+            <a class="nav-link" href="#">Pengiriman</a>
+
+            <a class="nav-link" href="#">
+                <i class="bi bi-envelope-fill"></i>
+                Hubungi Kami
+            </a>
+
+        </div>
+
+        <!-- Tombol WhatsApp -->
+        <div class="ms-auto">
+            <button class="btn btn-outline-success">
+                Chat WhatsApp
+            </button>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- Navbar Tutup -->
+
+
+<!-- slide -->
+    <div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="active"
+            aria-current="true" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+            <img src="img/slide1.png" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/slide2.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/slide3.jpg" class="d-block w-100" alt="">
+        </div>
+    </div>
+
+        <!-- control slide -->
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#mediaCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+            data-bs-target="#mediaCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="visually-hidden">Next</span>
+        </button>
+        
+    </div>
+    </div>
+<!-- slide tutup -->
+
+<!-- NEW PRODUCT START -->
+ 
+    <!-- Card Produk  -->
+    <div class="card border-warning text-center p-4" 
+        style="max-width: 320px; border-radius: 4px;">
+
+    <div class="py-3 d-flex align-items-center justify-content-center" style="height: 180px;">
+        <img src="img/laptop1.jpg" class="img-fluid h-100" style="object-fit: contain;" alt="">
+    </div>
+
+    <div class="card-body p-0 d-flex flex-column justify-content-between">    
+    <!-- Deskripsi Produk -->
+        <p class="card-text text-dark small mb-4 px-2">
+            Dell G7 N7500 Core i7 – 10750H, 16GB, 512GB SSD, RTX 2060 6GB, WIN10HSL, 1YR
+        </p>
+        
+        <!-- Label Merek & Harga -->
+        <div>
+            <span class="text-muted small d-block mb-1">Dell</span>
+            <span class="text-secondary fw-semibold">Rp27.999.000,00</span>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+</div>
+
+</body>
+</html>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
