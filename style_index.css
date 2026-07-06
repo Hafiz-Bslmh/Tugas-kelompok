@@ -1,0 +1,28 @@
+.tittle_destop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.text-desktop {
+  font-weight: 700;
+  color: #3F4582;
+  margin: 0;
+}
+
+.lihat-semua {
+  padding: 12px 28px;
+  border-radius: 30px;
+  background-color: #2f3b8f;
+  transition: opacity 0.1s ease;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.lihat-semua:hover {
+  opacity: 0.6;
+  background-color: #2f3b8f;
+}
