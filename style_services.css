@@ -1,0 +1,21 @@
+.tittle_destop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.text-desktop {
+  font-weight: 700;
+  color: #3F4582;
+  margin: 0;
+}
+
+
+.banner-services {
+  transition: opacity 0.1s ease;
+}
+
+.banner-services:hover {
+  opacity: 0.6; 
+}
