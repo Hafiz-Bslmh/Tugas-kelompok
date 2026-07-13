@@ -1,119 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website AmbaTeknologi</title>
+    <title>Website Ambateknologi</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style_services.css">
+    <link rel="stylesheet" href="style_service.css">
 </head>
+
 <body class="bg-light">
 
     <!-- Navbar Buka -->
 
 
-<!-- Navbar Atas -->
-<nav class="navbar navbar-expand-lg bg-white border-bottom">
-    <div class="container">
+    <!-- Navbar Atas -->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+        <div class="container">
 
-        <!-- Logo -->
-        <a class="navbar-brand fw-bold text-primary" href="#">
-            AmbaTeknologi<span class="text-warning">.com</span>
-        </a>
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold text-primary" href="#">
+                AmbaTeknologi<span class="text-warning">.com</span>
+            </a>
 
-        <!-- Search -->
-        <form class="d-flex flex-grow-1 mx-4">
-            <select class="form-select w-auto rounded-0">
-                <option>All categories</option>
-            </select>
+            <!-- Search -->
+            <form class="d-flex flex-grow-1 mx-4">
+                <select class="form-select w-auto rounded-0">
+                    <option>All categories</option>
+                </select>
 
-            <input class="form-control rounded-0" type="search" placeholder="Type here...">
+                <input class="form-control rounded-0" type="search" placeholder="Type here...">
 
-            <button class="btn btn-danger rounded-0" type="submit">
-                <i class="bi bi-search"></i>
-            </button>
-        </form>
+                <button class="btn btn-danger rounded-0" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
 
-        <!-- Menu kanan -->
-        <ul class="navbar-nav align-items-center">
+            <!-- Menu kanan -->
+            <ul class="navbar-nav align-items-center">
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">LOG IN / SIGN UP</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LOG IN / SIGN UP</a>
+                </li>
 
-            <li class="nav-item ms-3">
-                <a class="nav-link position-relative" href="#">
-                    <i class="bi bi-cart3 fs-4"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                        0
-                    </span>
+                <li class="nav-item ms-3">
+                    <a class="nav-link position-relative" href="#">
+                        <i class="bi bi-cart3 fs-4"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            0
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Navbar Bawah -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+
+            <div class="dropdown">
+                <button class="btn btn-primary rounded-0 px-4 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="bi bi-list"></i>
+                    Kategori
+                </button>
+
+                <ul class="dropdown-menu rounded-0">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Desktop PC
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Service Your Desktop
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Menu -->
+            <div class="navbar-nav ms-4">
+
+                <a class="nav-link" href="#">Cara Berbelanja</a>
+
+                <a class="nav-link" href="#">Pengiriman</a>
+
+                <a class="nav-link" href="#">
+                    <i class="bi bi-envelope-fill"></i>
+                    Hubungi Kami
                 </a>
-            </li>
 
-        </ul>
+            </div>
 
-    </div>
-</nav>
-
-<!-- Navbar Bawah -->
-<nav class="navbar navbar-expand-lg bg-white">
-    <div class="container">
-
-        <div class="dropdown">
-    <button class="btn btn-primary rounded-0 px-4 dropdown-toggle"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false">
-        <i class="bi bi-list"></i>
-        Kategori
-    </button>
-
-    <ul class="dropdown-menu rounded-0">
-        <li>
-            <a class="dropdown-item" href="#">
-                Desktop PC
-            </a>
-        </li>
-
-        <li>
-            <a class="dropdown-item" href="#">
-                Service Your Desktop
-            </a>
-        </li>
-    </ul>
-</div>
-
-        <!-- Menu -->
-        <div class="navbar-nav ms-4">
-
-            <a class="nav-link" href="#">Cara Berbelanja</a>
-
-            <a class="nav-link" href="#">Pengiriman</a>
-
-            <a class="nav-link" href="#">
-                <i class="bi bi-envelope-fill"></i>
-                Hubungi Kami
-            </a>
+            <!-- Tombol WhatsApp -->
+            <div class="ms-auto">
+                <button class="btn btn-outline-success">
+                    Chat WhatsApp
+                </button>
+            </div>
 
         </div>
+    </nav>
 
-        <!-- Tombol WhatsApp -->
-        <div class="ms-auto">
-            <button class="btn btn-outline-success">
-                Chat WhatsApp
-            </button>
+    <!-- Navbar Tutup -->
+
+
+    <div class="container-fluid p-0 banner-produk">
+        <img src="img/banner_service.jpg" class="w-100" alt="">
+    </div>
+
+
+
+    <section class="mt-5 mx-5">
+        <div class="tittle_destop">
+            <h2 class="text-desktop fw-bold">Semua Service Center</h2>
         </div>
 
-    </div>
-</nav>
 
-<!-- Navbar Tutup -->
 
-<div class="container-fluid p-0 banner-services">
-    <img src="img/banner_service.jpg" class="w-100" alt="">
-  </div>
+        <!-- Card Produk Start -->
 
-<section class="mt-5 mx-5">
-    <div class="tittle_destop">
-        <h2 class="text-desktop fw-bold">Semua Repair Service</h2>
-    </div>
+        <div class="container my-4">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+
+                <!-- Produk 1 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card border-warning text-start p-3 w-100" style="max-width: 400px; border-radius: 6px;">
+
+                        <div class="w-100 mb-3" style="height: 180px; overflow: hidden;">
+                            <img src="img/Card 1.png" class="w-100 h-100" style="object-fit: cover; border-radius: 6px;"
+                                alt="">
+                        </div>
+
+                        <div class="card-body p-0 d-flex flex-column justify-content-between"
+                            style="min-height: 160px;">
+                            <div class="mb-3">
+                                <h6 class="fw-bold text-dark mb-2">Hardware & Equipment Procurement</h6>
+                                <p class="card-text text-muted small mb-0" style="line-height: 1.4;">
+                                    • Permintaan Laptop/PC Baru<br>
+                                    • Monitor Tambahan atau Aksesori<br>
+                                    • Pengadaan Perangkat Jaringan Rumah<br>
+                                </p>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-warning w-100 fw-semibold text-dark btn-sm py-2"
+                                    style="border-radius: 4px;">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card border-warning text-start p-3 w-100" style="max-width: 400px; border-radius: 6px;">
+                        <div class="w-100 mb-3" style="height: 180px; overflow: hidden;">
+                            <img src="img/Card 2.png" class="w-100 h-100" style="object-fit: cover; border-radius: 6px;"
+                                alt="">
+                        </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between"
+                            style="min-height: 160px;">
+                            <div class="mb-3">
+                                <h6 class="fw-bold text-dark mb-2">Software & Application Access</h6>
+                                <p class="card-text text-muted small mb-0" style="line-height: 1.4;">
+                                    • Instalasi Software Standar<br>
+                                    • Lisensi Tambahan atau Upgrade Akun Premium<br>
+                                    • Akses ke Aplikasi Finansial/HR internal<br>
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn btn-warning w-100 fw-semibold text-dark btn-sm py-2"
+                                    style="border-radius: 4px;">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card border-warning text-start p-3 w-100" style="max-width: 400px; border-radius: 6px;">
+                        <div class="w-100 mb-3" style="height: 180px; overflow: hidden;">
+                            <img src="img/Card 3.png" class="w-100 h-100" style="object-fit: cover; border-radius: 6px;"
+                                alt="">
+                        </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between"
+                            style="min-height: 160px;">
+                            <div class="mb-3">
+                                <h6 class="fw-bold text-dark mb-2">dentity & Access Management / IAM</h6>
+                                <p class="card-text text-muted small mb-0" style="line-height: 1.4;">
+                                    • Pembuatan Akun Karyawan Baru<br>
+                                    • Permintaan Akses VPN<br>
+                                    • Perubahan Hak Akses Folder Bersama<br>
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn btn-warning w-100 fw-semibold text-dark btn-sm py-2"
+                                    style="border-radius: 4px;">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 4 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card border-warning text-start p-3 w-100" style="max-width: 400px; border-radius: 6px;">
+                        <div class="w-100 mb-3" style="height: 180px; overflow: hidden;">
+                            <img src="img/Card 4.png" class="w-100 h-100" style="object-fit: cover; border-radius: 6px;"
+                                alt="">
+                        </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between"
+                            style="min-height: 160px;">
+                            <div class="mb-3">
+                                <h6 class="fw-bold text-dark mb-2">IT Support & Troubleshooting</h6>
+                                <p class="card-text text-muted small mb-0" style="line-height: 1.4;">
+                                    • Komputer Lemot, Blue Screen, Terkena Virus/Malware<br>
+                                    • Perbaikan Printer Kantor atau Masalah Koneksi Wi-Fi<br>
+                                    • Bantuan Pengaturan Awal (Set-up) Komputer Baru<br>
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn btn-warning w-100 fw-semibold text-dark btn-sm py-2"
+                                    style="border-radius: 4px;">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 5 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card border-warning text-start p-3 w-100" style="max-width: 400px; border-radius: 6px;">
+                        <div class="w-100 mb-3" style="height: 180px; overflow: hidden;">
+                            <img src="img/Card 5.png" class="w-100 h-100" style="object-fit: cover; border-radius: 6px;"
+                                alt="">
+                        </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between"
+                            style="min-height: 160px;">
+                            <div class="mb-3">
+                                <h6 class="fw-bold text-dark mb-2">Communication & Collaboration</h6>
+                                <p class="card-text text-muted small mb-0" style="line-height: 1.4;">
+                                    • Penyediaan Akun Telepon Meja (VoIP)<br>
+                                    • Pembuatan Mailing List (Grup Email) Baru<br>
+                                    • Pemesanan & Set-up Ruang Meeting Virtual<br>
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn btn-warning w-100 fw-semibold text-dark btn-sm py-2"
+                                    style="border-radius: 4px;">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produk 6 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card border-warning text-start p-3 w-100" style="max-width: 400px; border-radius: 6px;">
+                        <div class="w-100 mb-3" style="height: 180px; overflow: hidden;">
+                            <img src="img/Card 6.png" class="w-100 h-100" style="object-fit: cover; border-radius: 6px;"
+                                alt="">
+                        </div>
+                        <div class="card-body p-0 d-flex flex-column justify-content-between"
+                            style="min-height: 160px;">
+                            <div class="mb-3">
+                                <h6 class="fw-bold text-dark mb-2">Infrastructure & Hosting</h6>
+                                <p class="card-text text-muted small mb-0" style="line-height: 1.4;">
+                                    • Permintaan Virtual Machine (VM) baru di Cloud<br>
+                                    • Alokasi Ruang Penyimpanan Data tambahan di Server<br>
+                                    • Pembukaan Port Jaringan (Firewall) untuk aplikasi baru<br>
+                                </p>
+                            </div>
+                            <div>
+                                <button class="btn btn-warning w-100 fw-semibold text-dark btn-sm py-2"
+                                    style="border-radius: 4px;">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Card Produk End -->
+
+
+</body>
+
+</html>
